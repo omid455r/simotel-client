@@ -6,10 +6,13 @@ namespace Ayzanet\Simotel;
 
 use Ayzanet\Simotel\Exceptions\SimotelException;
 use Ayzanet\Simotel\Traits\Settings;
+use Ayzanet\Simotel\Traits\Users;
 
 final class Simotel {
 
     use Settings;
+    use Users;
+
     private $connection;
     private $collection;
 

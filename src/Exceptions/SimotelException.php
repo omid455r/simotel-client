@@ -1,6 +1,6 @@
 <?php
 
-namespace Ayzanet\SimotelClient\Exceptions;
+namespace Ayzanet\Simotel\Exceptions;
 
 class SimotelException extends \Exception {
 

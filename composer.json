@@ -18,19 +18,21 @@
     }
   ],
   "require": {
-    "php": ">=7.3.0"
+    "php": ">=7.3.0",
+    "mongodb/mongodb": "^1.5",
+    "ext-mongodb": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
   },
   "autoload": {
     "psr-4": {
-      "Ayzanet\\SimotelClient\\": "src"
+      "Ayzanet\\Simotel\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ayzanet\\SimotelClient\\Tests\\": "tests/"
+      "Ayzanet\\Simotel\\Tests\\": "tests/"
     }
   }
 }

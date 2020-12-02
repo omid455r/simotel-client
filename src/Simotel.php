@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Ayzanet\SimotelClient;
+namespace Ayzanet\Simotel;
 
-use Ayzanet\SimotelClient\Exceptions\SimotelException;
+use Ayzanet\Simotel\Exceptions\SimotelException;
 
 final class Simotel {
 
-    public function __construct() {
+    public function __construct(Connection $connection) {
     }
 }

@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ayzanet\\Simotel\\": "src"
+      "Ayzanet\\SimotelClient\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ayzanet\\Simotel\\Tests\\": "tests/"
+      "Ayzanet\\SimotelClient\\Tests\\": "tests/"
     }
   }
 }

@@ -1,0 +1,36 @@
+{
+  "name": "ayzanet/simotel-client",
+  "description": "A client for simotel voip software",
+  "homepage": "https://github.com/ayzanet/simotel-client",
+  "license": "MIT",
+  "keywords": [
+    "voip",
+    "simotel",
+    "call",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Alireza Dana",
+      "email": "pixelitir@gmail.com",
+      "homepage": "https://github.com/ayzanet",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ayzanet\\Simotel\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ayzanet\\Simotel\\Tests\\": "tests/"
+    }
+  }
+}

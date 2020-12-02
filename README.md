@@ -1,2 +1,2 @@
-# simotel-client
-Simotel system php client
+# Simotel Client
+A client for simotel voip software

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Ayzanet\Simotel;
 
-class Configs {
+final class Configs {
 
     public const DATABASE = 'Simotel';
     public const COLLECTIONS = [

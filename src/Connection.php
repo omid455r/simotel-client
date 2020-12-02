@@ -18,7 +18,7 @@ use MongoDB\Client;
  * * @method \Ayzanet\Simotel\Connection setUsername(string $username)
  * * @method \Ayzanet\Simotel\Connection setPassword(string $password)
  **/
-class Connection {
+final class Connection {
 
     private $host = 'localhost', $username = null, $password = null, $connection = null;
 

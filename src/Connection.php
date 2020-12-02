@@ -50,7 +50,7 @@ class Connection {
                 $this->host
             );
             $this->connection = new Client($dsn);
-            return $this->connection;
+            return $this->connection->selectDatabase(Configs::DATABASE);
         } catch (\Exception $e) {
             throw new SimotelException($e->getMessage());
         }
